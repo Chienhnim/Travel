@@ -38,7 +38,7 @@ input, input:before, input:after, textarea, textarea:before, textarea:after{
 input{
   border:none;
 }
-a{display:inline-block;text-decoration: none;}
+/* a{display:inline-block;text-decoration: none;} */
 
 .sys_frame{
   display:inline-block;

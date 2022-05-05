@@ -131,7 +131,7 @@ i{
   0%{opacity:0;margin-top:-50px;transform:scale(0);}
   100%{opacity:1;margin-top:5px;transform:scale(1);}
 }
-,.header .menu_main .menu_area .item_more{
+.header .menu_main .menu_area .item_more{
   display:none;
 }
 

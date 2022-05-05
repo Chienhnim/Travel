@@ -6,19 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="system/css/css.css">
+    <link rel="stylesheet" href="system/header/css.css">
+    <link rel="stylesheet" href="system/header/responsive.css">
+    <link rel="stylesheet" href="system/footer/css.css">
+    <script src="system/js/jquery.js"></script>
+    <script src="system/header/event.js"></script>
+    <script src="contact/contact.js"></script>
+    <link rel="stylesheet" type="text/css" href="contact/contact.css">
+    <link rel="stylesheet" href="system/footer/responsive.css">
     <!-- For favicon>  -->
     <link rel="shortcut icon" type="image/icon" href="Img/logo/Logo.svg" />
     <title>News</title>
+    <script src="js/const.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel=" stylesheet" href="css/slick.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
     <link rel="stylesheet" href="css/New.css">
+        <!-- Font Awesome CSS -->
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+        <!-- Font family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 
-<body>
-    <div class="site-wrapper">
+<body style="background-color: black;">
+    <div class="container" id="header"></div>
+    <script>
+        $("#header").replaceWith(headerHTML);
+    </script>
+    <div class="site-wrapper pt-5">
+        <br><br> <br> <br><br>
         <!-- <section starts -->
         <section id="hero">
             <div class="container-xl">
@@ -1153,7 +1173,11 @@
             </div>
         </div>
     </div>
-
+<br>
+    <div class="container" id="footer"></div>
+    <script>
+        $("#footer").replaceWith(footerHTML);
+    </script>
 
 
 
