@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Contact</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="system/css/css.css">
+    <link rel="stylesheet" href="system/header/css.css">
+    <link rel="stylesheet" href="system/header/responsive.css">
+    <link rel="stylesheet" href="system/footer/css.css">
+    <script src="system/js/jquery.js"></script>
+    <script src="system/header/event.js"></script>
+    <script src="contact/contact.js"></script>
+    <link rel="stylesheet" type="text/css" href="contact/contact.css">
+    <link rel="stylesheet" href="system/footer/responsive.css">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awesome CSS -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+    <!-- Font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet'>
+    <style>
+        #map{
+            height: 500px;
+            width: 100%;
+        }
+    </style>
+  </head>
+  <body>
+
+    <div class="sys_frame header">
+        <div class="top">
+          <div class="top_content">
+            <div class="phone">
+              <div class="icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="text">888-750-868</div>
+            </div>
+            <div class="contact">
+              <div class="text">Follow Us:</div>
+              <div class="link">
+                <a class="icon facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a class="icon twitter" ><i class="fa-brands fa-twitter"></i></a>
+                <a class="icon instagram"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu_main">
+          <a class="menu_open"><i class="fa-solid fa-bars"></i></a>
+
+          <div class="menu_content">
+            <a href="#" class="logo" style="background-image:url(system/icon/logo.svg);"></a>
+            <div class="menu_area">
+              <a class="item" href="">HOME</a>
+              <a class="item" href="">ABOUT US</a>
+              <a class="item" href="">FLIGHT</a>
+              <div class="item has_children">
+                <div class="parent">
+                  <div class="text">TOUR</div>
+                  <div class="icon" style="background-image:url(system/icon/white_arrow_down.svg);"></div>
+                </div>
+                <div class="list">
+                  <a class="children">Menu con 1</a>
+                  <a class="children">Menu con 1</a>
+                  <a class="children">Menu con 1</a>
+                  <a class="children">Menu con 1</a>
+                </div>
+              </div>
+              <a class="item" href="index.html">CONTACT</a>
+              <a class="item_more" href="">SHOPPING CARD</a>
+              <a class="item_more" href="">LOGIN</a>
+
+            </div>
+            <div class="menu_icon">
+              <a href="#" class="icon search"><i class="fa-solid fa-magnifying-glass"></i></a>
+              <a href="#" class="icon login"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+            </div>
+          </div>
+        </div>
+    </div>
+<!----------------------------------------------------------------------------------------------->
+
+    <!--Banner about-->
+        <div class="container-fluid banner_top text-white text-center">
+        <h3>Contact Us</h3>
+        <marquee direction="right">
+        <h2>Contact Us</h2>
+        </marquee>
+        </div>
+    <!--End banner about-->
+     
+    <!--Content contact-->
+    <div class="container-fluid">
+      <div class="row background_maps">
+        <div class="col-lg-6 text_contact">
+         <p>"Carry out the responsibility to bring the best product and services to our customer with affordable price in the most time saving way, derived from the abbreviation of the words “Tiet kiem” (Save) and “Tim kiem” (Search), was founded.</p>
+        </div>
+        <div class="col-lg-6 image_contact">
+          <img src="pics/photo-1583452924150-c86772c4fab6.jpeg">
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid support">
+      <div class="row">
+        <div class="col-lg-4 head">
+          <img src="pics/travel.png" width="100px">
+          <h4>Tour</h4>
+          <h6>Mr.Hung</h6>
+          <p><i class="fa-solid fa-envelope"></i>&ensp;Chienhnim@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>&ensp;888-750-878</p>
+          <p><i class="fa-solid fa-location-dot"></i> &ensp;307 Nguyen Van Dau Street</p>
+        </div>
+         <div class="col-lg-4 head">
+          <img src="pics/LP-SKU-F5-1-ICON_2-en-us-1625475626532.png" width="100px">
+          <h4>Flight</h4>
+          <h6>Mr. Chien</h6>
+          <p><i class="fa-solid fa-envelope"></i>&ensp;Chienhnim@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>&ensp;888-750-878</p>
+          <p><i class="fa-solid fa-location-dot"></i> &ensp;307 Nguyen Van Dau Street</p>
+        </div>
+        <div class="col-lg-4 head">
+          <img src="pics/hotel-512.png" width="110px">
+          <h4>Hotel</h4>
+          <h6>Mr. Long</h6>
+          <p><i class="fa-solid fa-envelope"></i>&ensp;Chienhnim@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>&ensp;888-750-878</p>
+          <p><i class="fa-solid fa-location-dot"></i> &ensp;307 Nguyen Van Dau Street</p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+   <!--Form-->
+    <!--Header contact-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="box_info">
+                    <form class="row needs-validation" novalidate>
+                        <div class="mb-3 col-12">
+                            <label for="EmailAddressInput" class="form-label">First name</label>
+
+                            <input type="text" class="form-control" id="EmailAddressInput" required />
+
+                            <div class="invalid-feedback">
+                                Please enter your first name
+                            </div>
+                        </div>
+                        <div class="mb-3 col-12">
+                            <label for="EmailAddressInput" class="form-label">Last name</label>
+
+                            <input type="text" class="form-control" id="EmailAddressInput" required />
+
+                            <div class="invalid-feedback">
+                                Please enter your last name
+                            </div>
+                        </div>
+                        <div class="mb-3 col-12">
+                            <label for="EmailAddressInput" class="form-label">Email address</label>
+
+                            <input type="email" class="form-control" id="EmailAddressInput" placeholder="@email.com" required />
+
+                            <div class="invalid-feedback">
+                                Incorrect email address
+                            </div>
+                        </div>
+                        <div class="mb-3 col-12">
+                            <label for="EmailAddressInput" class="form-label">Telephone</label>
+
+                            <input type="text" class="form-control" id="EmailAddressInput" required />
+
+                            <div class="invalid-feedback">
+                                Please enter your last name
+                            </div>
+                        </div>
+
+                        <div class="mb-3 col-12">
+                            <label for="DescriptionInput" class="form-label">Your Message</label>
+
+                            <textarea class="form-control" id="DescriptionInput" rows="3"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn_send" type="submit">POST COMMENT</button>
+                        </div>
+                    </form>
+                    <script type="text/javascript" src="script/java.js"></script>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                   <div id="map"></div>
+      <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+      <script src="contact/main.js"></script>
+            </div>
+          </div>
+        </div>
+      <br>
+      <br>
+   <!--End form-->
+    <!-- End content-->
+
+<!----------------------------------------------------------------------------------------------->
+
+    <div class="sys_frame footer">
+      <div class="sys_limit footer_content">
+
+        <div class="area area1 left">
+          <a class="logo" href="index.html"  style="background-image:url(system/icon/white_logo.svg);"></a>
+          <div class="slogan">Welcome to our Trip and Tour Agency</div>
+          <div class="phone">
+            <div class="icon" style="background-image:url(system/icon/white_phone.svg);"></div>
+            <div class="text">888-750-868</div>
+          </div>
+          <div class="email">
+            <div class="icon" style="background-image:url(system/icon/white_email.svg);"></div>
+            <div class="text">gotourtravel@gmail.com</div>
+          </div>
+          <div class="address">
+            <div class="icon" style="background-image:url(system/icon/white_address.svg);"></div>
+            <div class="text">307- Nguyen Van Dau Street, Binh Thanh District, Ho Chi Minh City</div>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="area area2">
+            <div class="title">
+              <div class="text">Company</div>
+              <div class="icon" style="background-image:url(system/icon/white_add.svg);"></div>
+            </div>
+            <div class="list">
+              <a href="about_us.html">About Us</a>
+              <a href="rewards.html">Rewards</a>
+              <a href="news.html">News</a>
+              <a href="contract.html">Contract</a>
+            </div>
+          </div>
+
+          <div class="area area3">
+            <div class="title">
+              <div class="text">Explore</div>
+              <div class="icon" style="background-image:url(system/icon/white_add.svg);"></div>
+            </div>
+            <div class="list">
+              <a href="about_us.html">Account</a>
+              <a href="about_us.html">Privacy Policy</a>
+              <a href="about_us.html">Careers</a>
+              <a href="faqs.html">FAQs</a>
+              <a href="events.html">Events</a>
+            </div>
+          </div>
+
+          <div class="area area4">
+            <div class="title">
+              <div class="text">Newsletter</div>
+              <div class="icon" style="background-image:url(system/icon/white_add.svg);"></div>
+            </div>
+            <div class="list">
+              <input class="input" type="text" placeholder="Email address">
+              <div class="button">SUBSCRIBE</div>
+              <div class="policies">I agree to all terms and policies</div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="coppy_right">
+          &copy; Coppyright 2021 by Gaviasthemes
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>

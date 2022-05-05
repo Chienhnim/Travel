@@ -1,0 +1,78 @@
+
+*{
+	padding: 0; margin: 0;
+	font-family: Poppins, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+}
+.banner_top{
+	width: 100%;
+	background-image: url(../pics/contactbanner.png);
+	background-size: cover;
+	padding: 40px;
+	position: relative;
+	padding-top: 150px;
+}
+.banner_top p{
+	width: 100%;
+	font-family: Satisfy;
+	font-size: 41px;
+	color: #FFF;
+	position: absolute;
+	top: 250px;
+}
+.banner_top h3{
+	width: 100%;
+	font-size: 55px;
+	font-weight: 900;
+	position: absolute;
+	top: 300px;
+}
+.banner_top marquee h2{
+	font-size: 300px;
+	opacity: .3;
+	font-weight: 900;
+}
+.background_maps{
+	background-image: url(../pics/image-asset.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+}
+.text_contact p{
+	color: #FFF;
+	padding: 50px;
+	background-color: rgba(0, 0, 0, 0.3);
+	margin: 50px;
+	border-radius: 20px;
+}
+.image_contact{
+	text-align: center;
+	padding: 30px;
+}
+.image_contact img{
+	width: 300px;
+	border: 2px solid #EA8B00;
+	border-radius: 50%;
+	padding: 20px;
+}
+.support{
+	text-align: center;
+	color: #000;
+	padding: 50px;
+	background-color: #EA8B00;
+}
+.btn_send{
+	border: none;
+  border-radius: 17px;
+  color: #FFF;
+  background: #EA8B00;
+  padding: 10px 50px 10px 50px;
+}
+.btn_send:hover{
+  background: #525252;
+  transition: all 1s !important;
+}
+.form-control{
+	border-radius: 17px;
+}
